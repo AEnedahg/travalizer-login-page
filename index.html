@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travalizer Login Page</title>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <link rel="stylesheet" href="style.css" type = "text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__left">
+        <div class="container__left--inner">
+          <header>
+            <img class = "header__logo" src="images/logo.svg" alt="logo">
+            <h1 class = "header__text">Travalizer</h1>
+          </header>
+          <div class="login">
+            <h2 class="login__heading">Artificial Intelligence giving you travel recommendations</h2>
+            <p class="login__description">Welcome Back, Please login to your account</p>
+
+          </div>
+          <form>
+            <label class = "form-label form-label-email" for="email">Email</label>
+            <input type="email" spellcheck="false" id= "email" name = "Email" placeholder = "robert.langster@gmail.com">
+            <label class = "form-label form-label-pwd" for="pwd">Password</label>
+            <div class="password-container">
+              <input type="password" id = "pwd" name = "Password">
+              <i id="eye-icon" class="bi bi-eye-slash-fill"></i>
+            </div>
+            <div class="remember-me-forgot-password">
+              <label for="remember">
+                <input checked class = "checkbox-input"type="checkbox" value = "remember me" name = "Remember choice" id = "remember">
+                Remember me</label>
+              <a class = "forgot-password" href="#">Forgot Password?</a>
+            </div>
+            <div class="login-and-signup">
+              <button class="login-btn">
+                <a href="#">Login</a>
+              </button>
+              <button class="signup-btn">
+                <a href="#">Sign Up</a>
+              </button>
+            </div>
+          </form>
+          <div class="signin-with-socials">
+            <p>Or, login with</p>
+            <a href="#">Facebook</a>
+            <a href="#">Linked In</a>
+            <a href="#">Google</a>
+          </div>
+        </div>
+      </div>
+      <div class="container__right">
+        <img src="images/travel-illustration.svg" alt="travel-illustration">
+      </div>
+    </div>
+    <script src = "script.js" defer>
+
+    </script>
+  </body>
+</html>
