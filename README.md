@@ -24,4 +24,4 @@ https://www.figma.com/file/SwBau41D0GtreR4FiKfJx8/Login-UI-Responsive-Template-M
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/aenedahg/travalizer-login-page.git
+   git clone https://github.com/AEnedahg/travalizer-login-page.git
